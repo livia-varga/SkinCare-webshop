@@ -1,0 +1,12 @@
+.pagination-buttons > * {
+    border: none;
+    background: none;
+    padding: 1em;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.disabled {
+    color: rgb(190, 190, 190)
+}
