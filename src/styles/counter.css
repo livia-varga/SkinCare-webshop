@@ -5,8 +5,7 @@
 .counter-round {
     border: 1px solid black;
     width: 15em;
-    /* height: 15rem; */
-    /* border-radius: 50%; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +13,7 @@
     flex-direction: column;
     border: 3px solid rgb(129, 91, 97);
     color: rgb(63, 37, 41);
-    /* background-color: rgba(213, 182, 188, 0.793); */
-    /* position: relative; */
+ 
 
 }
 
@@ -31,23 +29,7 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
     height:300px;
     margin-top:100px;
-    /* width: 60vmin;
-    height: 50vmin; */
-    /* border-radius: 20%; */
-    /* 
-     background-image:  */
-    /* conic-gradient(
-        from var(--border-angle),
-        rgb(219, 170, 203),
-        rgb(219, 170, 203) 50%,
-        rgb(219, 170, 203)
-      ); */
-    /* conic-gradient(from var(--border-angle), transparent 20%, rgb(214, 161, 202), rgb(61, 24, 32)); */
-    /* background-size: calc(100% - (var(--border-size) * 2))
-        calc(100% - (var(--border-size) * 2)),
-      cover;  */
-    /* background-position: center center;
-    background-repeat: no-repeat; */
+    
 
     animation: bg-spin 3s linear infinite;
 }
@@ -66,14 +48,7 @@
 
 
 
-/* counter-round p {
-    /* color: rgb(129, 91, 97); */
-/* font-weight: bold; */
-/* background: -webkit-linear-gradient(#372929, #766363) ;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; */
-/* font-size: 1.9rem; */
-/* position: absolute; */
+
 
 
 

@@ -4,8 +4,7 @@
     background-position: 43%;
     box-shadow: #3E312A;
     padding: 15px;
-    /* margin-bottom: 30px; */
-    /* margin-top: 30px; */
+   
     font-size: 25px;
     background-color: white;
     box-shadow: 0 0 20px #eeddd3;
@@ -100,7 +99,7 @@ textarea {
   margin-bottom:-20px;
 }
 
-.button2:hover {        /*gomb effekt*/
+.button2:hover {        
     border-color: white;
     transition: .5s;
   }

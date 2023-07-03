@@ -1,11 +1,9 @@
 .wizard-container {
-    /* border: 2px solid black; */
+    
     min-height: 90vh;
-    /* background-color: #b99888; */
     background-image: url('../../styles/ProductWizard/wizard-background.jpg') ;
     background-position: center;
     background-size: cover;
-    /* padding-top: 5rem; */
     margin-block: auto;
     display: flex;
     align-items: center;
@@ -14,7 +12,6 @@
 }
 
 .margin-helper {
-    /* display: flow-root; */
     margin: 2rem
 }
 
@@ -42,15 +39,11 @@
  }
 
 input[type="radio"] {
-    /* Add if not using autoprefixer */
-    /* -webkit-appearance: none; */
     height: 0;
     width: 0;
     appearance: none;
     cursor: pointer;
-    /* For iOS < 15 to remove gradient background */
     background-color: #fff;
-    /* Not removed via appearance */
     margin: 0;
   }
 
@@ -73,7 +66,6 @@ input[type="radio"] {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    /* display: grid; */
     row-gap: 1.3rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -87,16 +79,11 @@ input[type="radio"] {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    /*width: 4em;
-    height: 4em; */
     user-select: none;
-    /* border-image-slice: 1; */
-    /* border-image-source: linear-gradient(-45deg, #743ad5, #d53a9d); */
 }
 
 .wizard-form label {
     font-size: 1.3rem;
-    /* margin-top: -6px; */
     text-align: center;
     visibility: visible;
     padding: 0.7rem;
@@ -119,7 +106,6 @@ input[type="radio"] {
 .wizard-label input[type="radio"]:checked ~ .selected {
     box-shadow: 5px 5px 25px #8d7467,
                   -5px -5px 25px #b48d79;
-    /* border-image-slice: 1; */
     background-image: linear-gradient(135deg, #D9B6A4, #b99888);  
     z-index: -3;
     border-radius: 10px;

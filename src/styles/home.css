@@ -1,6 +1,6 @@
 .main-content {
     background-color: #FFFFFF;
-    /* padding: 2rem; */
+   
 }
 
 .main-content h1 {
@@ -36,9 +36,9 @@
 }
 
 .product-card {
-    /* background-color: #F6EDE8; */
+   
     padding: 1rem;
-    /* border: 1px solid #ECDBD1; */
+   
     width: 300px;
     height: 400px;
     display: flex;

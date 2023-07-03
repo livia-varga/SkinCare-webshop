@@ -1,19 +1,4 @@
-/* .footer {
-    width: 100%;
-    min-height: 10vh;
-    background-color: #F6EDE8;
-}
 
-.footer-container {
-    display: flex;
-    justify-content: space-evenly;
-    color: #3E312A;
-    
-}
-.footer-container p{
-    font-size:20px;
-    margin-top:40px;
-} */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
@@ -68,7 +53,7 @@ ul {
 }
 
 .line::after {
-	/* vonalak cím alatt*/
+
 	content: '';
 	position: absolute;
 	bottom: -2px;
@@ -108,16 +93,7 @@ ul {
 	padding-left: 0.5rem;
 }
 
-/* .footer-col .social-links a {
-	display: inline-block;
-	height: 2rem;
-	width: 2rem;
-	background-color: #D9B6A4;
-	margin: 0 0.6rem 0.6rem 0;
-	text-align: center;
-	line-height: 3rem;
-	border-radius: 50%;
-} */
+
 
 
 
@@ -140,15 +116,3 @@ ul {
 	background-color: #D9B6A4;
 }
 
-/* responsive
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-} */
